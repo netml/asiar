@@ -58,8 +58,4 @@ Options include input file paths (`-i` for trace files, `-gi` for ground truth I
 
 Contributions are welcome. Please open issues for bugs and feature requests and submit pull requests for code changes.
 
-### License
-
-Specify the license under which this tool is released, typically included as a separate LICENSE file in the repository.
-
 This README provides a general overview and setup guide for the tool. For detailed documentation on each component and function, refer to the comments and documentation within the source code files.
