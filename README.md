@@ -9,9 +9,20 @@ This repository contains a C program designed for network analysis, specifically
 - **main.c**: The main executable file of the tool, responsible for parsing command-line arguments, initializing data structures, and orchestrating the flow of the subnet identification and alias resolution process.
 
 - **libraries**:
-  - **linkedlist_alias.h**: Defines structures and functions for handling linked lists used in alias resolution.
-  - **asiarlib.h**: A library that provides functions for subnet analysis and IP address manipulation.
-  - **binarytree_seen.h**: Implements binary tree data structures for efficiently storing and querying IP addresses and their attributes during analysis.
+  - **binarytree.h/c**: Implements general binary tree data structures for storing and querying data efficiently.
+  - **binarytree_seen.h/c**: Specializes in tracking seen IP addresses or entities, using binary tree structures to optimize search and storage.
+  - **binarytree_ip.h/c**: Designed for managing IP addresses within a binary tree, facilitating operations specific to network address management.
+  - **binarytree_alias.h/c**: Utilizes binary trees for alias resolution, aiding in the identification and mapping of network device aliases.
+  - **binarytree_subnet.h/c**: Handles subnet information in a binary tree format, supporting subnet analysis and management.
+  - **binarytree_unresponsive.h/c**: Tracks unresponsive nodes or addresses, employing binary trees to enhance network diagnostics.
+  - **binarytree_duple.h/c** and **binarytree_duple_unclassified.h/c**: Focus on storing pairs of data, useful for managing correlated attributes or classifications.
+  - **binarytree2.h/c**: Represents an advanced or alternative version of the binary tree library, offering additional features or improved performance.
+  - **linkedlist.h/c**: Provides foundational structures and functions for linked list operations, suitable for a variety of data management tasks.
+  - **linkedlist_alias.h/c**: Dedicated to managing alias links within linked lists, facilitating efficient alias resolution processes.
+  - **linkedlist_distance.h/c**: Targets the storage and calculation of distances or metrics, potentially applicable in network topology analysis.
+  - **network.h/c**: Offers a suite of functions for comprehensive network operations, including data transmission and network configuration utilities.
+  - **asiarlib.h/c**: Specializes in subnet analysis and IP address manipulation, supporting intricate network analysis tasks.
+  - **clib.h/c**: Contains a collection of general-purpose utilities and functions, applicable across various components of the project for basic data handling.
 
 - **Parameters**: The program accepts various command-line arguments to specify input files, output files, and operation modes. These include paths to trace files, ground truth IP lists, subnet and alias output files, and configuration parameters for analysis thresholds and modes.
 
